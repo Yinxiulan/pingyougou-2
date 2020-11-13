@@ -1,0 +1,264 @@
+.main{
+    width:980px;
+    height:455px;
+    /* background-color: pink; */
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus{
+    position: relative;
+    float: left;
+    width:720px;
+    height:455px;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+.focus ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width:600%;
+}
+.focus ul li{
+    float: left;
+}
+.focus img{
+    width:720px;
+    height:455px;
+}
+.arrow_l,.arrow_r{
+    display: none;
+position: absolute;
+top:50%;
+margin-top: -20px;
+width:24px;
+height:40px;
+background-color: rgba(0,0,0,.3);
+text-align: center;
+line-height: 40px;
+color:#fff;
+font-family: 'icomoon';
+font-size: 18px;
+z-index:2;
+}
+.arrow_r{
+    right: 0;
+}
+.circle{
+   position: absolute; 
+   bottom: 10px;
+   left: 50px;
+}
+.circle li{
+    float: left;
+    width:8px;
+    height:8px;
+    /* background-color: #fff; */
+    border:2px solid rgba(255,255,255,.6);
+    border-radius: 50%;
+    margin: 0 3px;
+    /* 鼠标经过变成小手 */
+    cursor: pointer;
+}
+.current{
+    background-color: #fff;
+}
+.newsflash{
+    float: right;
+   width:250px;
+   height:455px;
+   /* background-color:red;  */
+}
+.news{
+    height:163px;
+    border:1px solid #ccc;
+    /* background-color: pink; */
+}
+.newshd{
+height:32px;
+padding:0  15px;
+border-bottom: 1px dotted #ccc;
+font-size: 14px;
+line-height: 32px;
+}
+.newshd a{
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.newsbd{
+    padding:10px 0 0 15px;
+}
+.newsbd li{
+    height: 23px;
+}
+.life_service{
+    overflow: hidden;
+    height:208px;
+    /* background-color: purple; */
+    border:1px solid #ccc;
+    border-top: 0;
+}
+.life_service ul{
+    width: 252px;
+}
+.life_service li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.life_service li a{
+    display: block;
+    height: 100%;
+}
+.life_service li p{
+    text-align: center;
+}
+.life_service ul li .hot{
+    position: absolute;
+    right:0;
+    top: 0;
+    width:14px;
+    height:17px;
+    background: url(../img/jian.jpg) no-repeat;
+}
+.service_icon{
+    display: block;
+    width:24px;
+    height: 24px;
+    background:url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+.service_icon_huafei{
+    background-position: -17px -16px;
+}
+.service_icon_feiji{
+    width:26px;
+    background-position: -78px -16px;
+}
+.bargin{
+    height: 75px;
+    margin-top: 5px;
+}
+.recommend{
+    height:163px;
+    background-color: pink;
+    margin-top: 10px;
+}
+.recomhd{
+    float: left;
+    width:200px;
+    height:163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recomhd img{
+    margin-top: 30px;
+}
+.recombd{
+    float: left;
+    width: 1000px;
+    height:163px;
+    background-color: #ebebeb;
+}
+.recombd li{
+    float: left;
+    width:249px;
+    height: 163px;
+     /* margin-top: 10px;  */
+    border-right:1px solid #ccc;
+}
+.boxbd li{
+    overflow: hidden;
+}
+.boxbd img{
+    transition: all 0.2s;
+}
+.boxbd img:hover{
+    margin-left: 8px;
+}
+.boxhd{ 
+ height: 30px;
+ /* background-color: pink; */
+ border-bottom: 2px solid #c81623;
+ margin-top: 25px;
+}
+.boxhd h3{
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+}
+.tab-list{
+    float: right;
+    line-height: 30px;
+}
+.tab-list li{
+    float: left;
+    
+}
+.tab-list li a{
+    padding: 0 15px;
+}
+.boxbd{
+    height: 360px;
+     /* background-color: pink;  */
+}
+.w209{
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.w329{
+    width: 329px;
+}
+.w219{
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220{
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab-con li{
+    float: left;
+    height: 360px;
+}
+.tab-con-item{
+    border-bottom:1px solid #ccc;
+}
+.tab-con-list{
+    /* 清除浮动 */
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-con-list li{
+    width:86px;
+    height:32px;
+    line-height: 32px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.fixedtool{
+    position:fixed;
+    top:100px;
+    left:50%;
+    margin-left:-676px;
+    width: 66px;
+     background-color:#fff;
+     display: none;
+}
+.fixedtool li{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.fixedtool .current{
+    background-color: #c81623;
+    color:#fff
+}
